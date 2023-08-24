@@ -1,0 +1,4 @@
+this app uses es6 modules and to run the app successfully you need to run it on a server.
+an easy solution would to run the app via vs code live server.
+
+THANKS FOR READING. ^-^

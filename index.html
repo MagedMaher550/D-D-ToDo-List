@@ -1,0 +1,35 @@
+<!-- Add validation for the to do input field -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 2 ( ToDo List )</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./main.js"></script>
+  </head>
+  <body>
+    <form>
+      <input type="text" id="ToDo" placeholder="Add a ToDo item" />
+      <button type="button" class="btn" id="addItem">Add</button>
+    </form>
+    <p id="error"></p>
+    <table class="todo-table">
+      <thead>
+        <tr>
+          <th>ToDo</th>
+          <th>Progress</th>
+          <th>Done</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div class="container">
+      <button class="btn" id="resetList">Reset List</button>
+    </div>
+    <script type="module" src="./storage.js"></script>
+    <script type="module" src="./ui.js"></script>
+  </body>
+</html>

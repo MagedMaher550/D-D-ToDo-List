@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem auto;
+  width: 20%;
+}
+
+form input {
+  width: 20rem;
+  border: none;
+  border-bottom: 1px solid grey;
+  padding: 0.2rem;
+  font-size: 1.3rem;
+  margin: 0.5rem;
+}
+
+form button {
+  color: #fff;
+  background-color: blue;
+  align-self: flex-end;
+  margin-top: 0.5rem;
+}
+
+/* Add your styling here */
+.todo-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.todo-table th,
+.todo-table td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+.todo-table th {
+  background-color: #f2f2f2;
+}
+
+.delete-row {
+  cursor: pointer;
+  color: red;
+}
+
+.btn {
+  width: 7rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 7%;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+#resetList {
+  background-color: rgb(181, 3, 3);
+  color: white;
+  font-weight: 700;
+  margin: 2rem auto;
+  width: 20rem;
+  padding: 1rem;
+  border-radius: 2.5%;
+}
+
+.hide {
+  display: none;
+}
+
+#error {
+  color: red;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-align: center;
+}
